@@ -1,0 +1,29 @@
+{
+  "name": "@tariq/card",
+  "version": "1.0.0",
+  "description": "Display my business card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tselawi/card-npx.git"
+  },
+  "keywords": [
+    "npm",
+    "npx",
+    "business",
+    "card"
+  ],
+  "author": "Tariq Selawi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tselawi/card-npx/issues"
+  },
+  "homepage": "https://github.com/Tselawi/card-npx#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.1"
+  }
+}
