@@ -12,21 +12,21 @@ const boxen = require("boxen");
 
 // Text + chalk definitions
 const data = {
-    name: chalk.white("             Tariq Selawi"),
-    handle: chalk.white("Tariq"),
-    work: chalk.white("Junior Web Developer at BeCode.org"),
-    twitter: chalk.gray("https://twitter.com/") + chalk.cyan("selawi_be"),
-    npm: chalk.gray("https://npmjs.com/") + chalk.red("tselawi"),
-    github: chalk.gray("https://github.com/") + chalk.green("tselawi"),
-    linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("tariq-selawi"),
-//     web: chalk.cyan("https://leny.me"),
-    npx: chalk.red("npx") + " " + chalk.white("tariq"),
+    name: chalk.yellow("             Tariq"),
+    handle: chalk.yellow("Selawi"),
+    work: chalk.magenta("Junior Web Developer at BeCode.org"),
+    twitter: chalk.blue("https://twitter.com/") + chalk.red("@selawi_be"),
+    npm: chalk.green("https://npmjs.com/") + chalk.red("tselawi"),
+    github: chalk.yellowBright("https://github.com/") + chalk.red("tselawi"),
+    linkedin: chalk.magenta("https://linkedin.com/in/") + chalk.red("tariq-selawi"),
+    portfolio: chalk.cyanBright("https://tariqs-portfolio.netlify.app/"),
+    npx: chalk.red("npx") + " " + chalk.yellowBright("Tariq"),
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
     labelNpm: chalk.white.bold("        npm:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
-    labelWeb: chalk.white.bold("        Web:"),
+    labelportfolio: chalk.white.bold("        Portfolio:"),
     labelCard: chalk.white.bold("       Card:"),
 };
 
@@ -34,7 +34,7 @@ const NEWLINE = "\n";
 const EMPTYLINE = "";
 
 console.log(
-    chalk.green(
+    chalk.blueBright(
         boxen(
             [
                 `${data.name} / ${data.handle}`,
@@ -45,7 +45,7 @@ console.log(
                 `${data.labelNpm} ${data.npm}`,
                 `${data.labelGitHub} ${data.github}`,
                 `${data.labelLinkedIn} ${data.linkedin}`,
-                `${data.labelWeb} ${data.web}`,
+                `${data.labelportfolio} ${data.portfolio}`,
                 EMPTYLINE,
                 `${data.labelCard} ${data.npx}`,
             ].join(NEWLINE),
