@@ -1,6 +1,6 @@
 {
   "name": "tariq",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Display my business card",
   "main": "index.js",
   "scripts": {
