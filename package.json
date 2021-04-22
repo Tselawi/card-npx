@@ -1,5 +1,5 @@
 {
-  "name": "@tariq/card",
+  "name": "tariq",
   "version": "1.0.0",
   "description": "Display my business card",
   "main": "index.js",
